@@ -76,6 +76,7 @@ class DataTransformation:
             logging.info('obtaining preprocessing object')
 
             preprocessor_obj=self.get_data_transformer_object()
+            
             logging.info("calling get_data_transformer_object")
 
             target_colum_name='math_score'
